@@ -1,4 +1,4 @@
-class Artist < ActiveRecord::Migration
+class CreateArtists < ActiveRecord::Migration
   def change
     create_table :artists do |t|
     #table name is inputted as a symbol 
